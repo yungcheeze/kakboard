@@ -1,3 +1,4 @@
+provide-module kakboard %{
 
 declare-option -docstring 'command to copy to clipboard' \
     str kakboard_copy_cmd
@@ -191,4 +192,6 @@ define-command -docstring 'toggle clipboard integration' kakboard-toggle %{
             echo "kakboard-enable"
         fi
     }
+}
+
 }
